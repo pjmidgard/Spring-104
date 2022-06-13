@@ -118,10 +118,10 @@ class compression:
                     sw5=0
                     sw4=0
                     sw6=0
-                    sw7=1000
+                    sw7=0
                     n1=0
                     n=0
-                    n2=1000
+                    n2=0
                     n3=0
                  
                     sda3=""
@@ -526,7 +526,7 @@ class compression:
                                     sw6=sw6+n2
                                     
                                     sw=sw+n+3
-                                    sw1=sw1+n2-1
+                                    sw1=sw1+n2+1
                                     sw2=sw2+n2+3
                                     sw3=sw3+n2+2
                                     
@@ -617,10 +617,10 @@ class compression:
                     sw4=0
                     sw5=0
                     sw6=0
-                    sw7=1000
+                    sw7=0
                     n=0
                     n1=0
-                    n2=1000
+                    n2=0
                     n3=0
                  
                     sda3=""
@@ -1023,7 +1023,7 @@ class compression:
                                     sw6=sw6+n2
                                     
                                     sw=sw+n+3
-                                    sw1=sw1+n2-1
+                                    sw1=sw1+n2+1
                                     sw2=sw2+n2+3
                                     sw3=sw3+n2+2
                                     
